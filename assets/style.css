@@ -1,8 +1,8 @@
 .intro {
   margin: 0 auto;
-  background: beige;
+  background: #e5e4cc;
   min-height: 100vh;
-  padding: 25px;
+  /* padding: 25px; */
 }
 
 .parallax {
@@ -10,10 +10,22 @@
   background-size: cover;
   background-attachment: fixed;
   height: 500px;
+  padding: 0 15px;
 }
 .title {
   min-height: 80vh;
 }
 .navbar {
   min-height: 20vh;
+}
+.me {
+  background-color: #889e81;
+  min-height: 25vh;
+}
+.projects {
+  background-color: #698474;
+}
+.footer {
+  background-color: #bac7a7;
+  min-height: 15vh;
 }
