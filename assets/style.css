@@ -1,6 +1,6 @@
 .intro {
   margin: 0 auto;
-  background: #e5e4cc;
+  background-image: url("https://images.unsplash.com/photo-1555117391-6c0795768da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   min-height: 100vh;
   /* padding: 25px; */
 }
@@ -16,16 +16,39 @@
   min-height: 80vh;
 }
 .navbar {
-  min-height: 20vh;
+  min-height: 15vh;
+  background-color: #333333;
+}
+.nav-item {
+  color: #eb5353;
 }
 .me {
-  background-color: #889e81;
-  min-height: 25vh;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1519515449982-8b104b672029?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
 }
 .projects {
-  background-color: #698474;
+  background-color: #eb5353;
+  min-height: 70vh;
 }
 .footer {
-  background-color: #bac7a7;
+  background-color: #706c61;
   min-height: 15vh;
+}
+.card {
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: rgb(204, 194, 184);
+}
+.card:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.titleMe {
+  color: white;
+  text-shadow: 0px 0px 20px yellow;
+}
+.logos {
+  font-size: 4rem;
+  align-items: center;
 }
