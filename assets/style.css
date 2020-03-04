@@ -2,6 +2,7 @@
   margin: 0 auto;
   background-image: url("https://images.unsplash.com/photo-1555117391-6c0795768da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   min-height: 100vh;
+  background-size: cover;
   /* padding: 25px; */
 }
 
@@ -13,7 +14,11 @@
   padding: 0 15px;
 }
 .title {
-  min-height: 80vh;
+  /* min-height: 80vh; */
+  /* position: ; */
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 .navbar {
   min-height: 15vh;
@@ -25,6 +30,7 @@
 .me {
   min-height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1519515449982-8b104b672029?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  align-content: center;
 }
 .projects {
   background-color: #eb5353;
@@ -51,4 +57,14 @@
 .logos {
   font-size: 4rem;
   align-items: center;
+}
+.aboutMe {
+  min-height: 100vh;
+}
+.moreMe {
+  align-self: center;
+  max-width: 30vw;
+  margin-left: 2rem;
+  background-color: rgba(185, 180, 180, 0.3);
+  border-radius: 25px;
 }
